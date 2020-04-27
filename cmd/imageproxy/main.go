@@ -39,6 +39,7 @@ import (
 	"github.com/jamiealquiza/envy"
 	"github.com/peterbourgon/diskv"
 	"willnorris.com/go/imageproxy"
+	"willnorris.com/go/imageproxy/internal/gcscache"
 )
 
 const defaultMemorySize = 100
